@@ -1,0 +1,299 @@
+th {
+    padding: 5px;
+    background-color: #e0ad12;
+    font-size: 11px;
+    color: #000;
+}
+th a {
+	color: #000; 
+}
+th a:link, a:visited {
+	text-decoration: none;
+}
+th a:hover {
+	text-decoration: underline;
+}
+td {
+	text-align: center;
+	padding: 5px;
+	font-size: 11px;
+}
+a.edit_delete:link, a.edit_delete:visited, a.edit_delete:active {
+	text-decoration: underline;
+}
+a.edit_delete:hover {
+	text-decoration: none;
+}
+#editLeftPanel {
+	float: left;
+	width: 380px;
+	margin: 20px;
+}
+#editRightPanel {
+	float: left;
+	width: 480px;
+	margin: 20px;
+}
+h1 {
+	font-size: 16px;
+	color: #000;
+	margin: 0 0 10px;
+	padding: 0 0 0 8px;
+	border-bottom: 1px dotted #e0ad12;
+}
+h2 {
+	font-size: 14px;
+	color: #39275b;
+	margin: 0 0 10px;
+	padding: 0;
+}
+#bodyPanel h3 {
+	font-size: 12px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0 0 10px;
+	border: 0;
+}
+#formContainer {
+	float: left;
+	width: 500px;
+	padding-left: 10px;
+}
+ul#subSubNav {
+	padding: 0;
+	margin: -6px 0 16px;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	color: #000;
+	font-size: 11px;
+}
+ul#subSubNav li {
+	display: inline;
+}
+ul#subSubNav li a {
+	color: #39275b;
+	text-decoration: underline;
+}
+ul#subSubNav li a:hover {
+	color: #39275b;
+	text-decoration: none;
+}
+
+/* These are the common form attributes for a PEAR Quickform, no table, standards compliant form */
+form {
+    margin: 0;
+    padding: 0;
+}
+form#admin_edit {
+	width: 600px;
+}
+form fieldset {
+    clear: both;
+    float: left;
+    border: 0;
+    margin: 0;
+    width: 100%;
+}
+form fieldset.hidden {
+    border: 0;
+}
+form fieldset legend {
+    white-space: nowrap;
+    background-color: #ccc;
+    font-weight: 700;
+    width: 100%;
+    padding: 1px;
+    display: block;
+}
+form fieldset ol {
+    margin: 0;
+    padding: 0;
+}
+form fieldset li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    clear: both;
+    float: left;
+}
+* html form fieldset li {
+    float: none;
+}
+*+html form fieldset li {
+    float: none;
+}
+form label {
+    margin: 0;
+}
+form label.element {
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 5px 0 0;
+    font-weight: 700;
+    text-align: right;
+}
+form textarea {
+    overflow: auto;
+    font-size: 11px;
+}
+form br {
+    clear: left;
+}
+form div.element {
+    display: inline;
+    float: left;
+    margin: 5px 0 0 10px;
+    padding: 0;
+}
+form li.reqnote {
+    font-size: 80%; 
+    margin: 5px 0 0 10px;
+}
+form span.error, form span.required {
+    color: navy;
+}
+form div.error {
+    border: 1px solid red;
+    padding: 5px;
+}
+form img {
+    border: 0;
+}
+
+/*** tooltip attributes ***/
+a.info {
+    position: relative; /*this is the key*/
+    z-index: 24;
+    color: #000;
+    text-decoration: underline;
+}
+a.info:link {
+	color: #000;
+	text-decoration: underline;
+}
+a.info:hover {
+	z-index: 25;
+}
+a.info span {
+	display: none;
+}
+a.info:hover span { /*the span will display just on :hover state*/
+    display: block;
+    position: absolute;
+    top: 2em;
+    left: 4em;
+    width: 100px;
+    border: 1px solid #999;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.viewSpacer1 {
+	display: block;
+	height: 3px;
+}
+.viewSpacer2 {
+	float: right;
+	padding-right: 5px;
+}
+.viewSpacer3 {
+	clear: both;
+	display: block;
+	height: 1px;
+}
+.viewSpacer4 {
+	float: right;
+	padding-right: 5px;
+}
+.viewTable {
+	border: 1px solid #fff;
+	width: 980px;
+}
+.rsvnDateTxt {
+	font-size: 10px;
+}
+#arrowGraphic {
+	float: right;
+}
+#adminPanel {
+    margin-top: 8px;
+}
+#adminPanel .rhtAdmn {
+	float: left;
+	width: 50%;
+}
+#adminPanel .lftAdmn {
+	float: left;
+    border-right: 1px dotted #e0ad12;
+	width: 47%;
+	margin-right: 20px;
+}
+#adminPanel div h2 {
+	color: #39275b;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px dotted #39275b;
+	margin-bottom: 10px;
+	padding: 3px 6px;
+	width: 40%;
+}
+#adminPanel div h3 {
+    color: #e0ad12;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 6px;
+}
+#adminPanel div h4 {
+	font-weight: bold;
+	font-size: 10px;
+	padding-left: 6px;
+	margin-bottom: 8px;
+}
+#adminPanel div ul {
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+#adminPanel div ul li {
+    padding-left: 10px;
+    font-size: 11px;
+}
+#adminPanel div ul li a:visited {
+	text-decoration: underline;
+}
+#adminPanel div ul li a:hover {
+	text-decoration: none;
+}
+#calendar_icon {
+	padding-left: 3px;
+    width: 18px;
+    height: 13px;
+	visibility: hidden;
+}
+#selectContainer {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+}
+#queryContainer {
+	float: left;
+	display: inline;
+	width: 160px;
+}
+#calendarContainer {
+	float: left;
+	display: none;
+	width: 160px;
+}
+#submitContainer {
+	float: left;
+	display: inline;
+}
+#clearForm {
+	clear: both;
+}
+#search {
+	height: 50px;
+}

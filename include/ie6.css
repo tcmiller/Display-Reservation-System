@@ -1,0 +1,31 @@
+/**** IE6-only CSS ****/
+
+#reservationWrapper {
+	width: 980px;
+}
+#calendarBlock {
+	width: 600px;
+}
+#resvnFormBlock {
+	width: 340px;
+}
+ul#rsvnNav {
+	padding: 0 0 0 30px;
+}
+#hpLeftPanel {
+	float: left;
+	width: 450px;
+	margin: 20px 0;
+	padding: 0 20px;
+}
+#hpRightPanel {
+	float: left;
+	width: 450px;
+	margin: 20px 0;
+	padding: 0 20px;
+}
+#leftPanel, #rightPanel {
+	float: left;
+	margin: 12px 0 20px;
+	padding: 0 10px;
+}
